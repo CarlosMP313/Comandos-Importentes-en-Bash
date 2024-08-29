@@ -71,6 +71,7 @@
 ```bash
   chown usuario:grupo archivo
 ```
+
 - **`chmod +x`**: Cambia los permisos de archivos para ejecución.
 ```bash
   chmod +x archivo
@@ -78,25 +79,25 @@
 
 
 ## 3. Gestión de Procesos
-ps: Muestra los procesos en ejecución.
 
-bash
-Copiar código
-ps aux
-a: Muestra todos los procesos de todos los usuarios.
-u: Muestra el propietario del proceso.
-x: Incluye procesos sin terminal asociado.
-top: Monitorea los procesos en tiempo real.
+- **`ps`**: Muestra los procesos en ejecución.
+```bash
+  ps
+```
 
-bash
-Copiar código
-top
-kill: Termina un proceso mediante su ID (PID).
+### ps aux
+- **`a`**: Muestra todos los procesos de todos los usuarios.
+- **`u`**: Muestra el propietario del proceso.
+- **`x`**: Incluye procesos sin terminal asociado.
+- **`top`**: Monitorea los procesos en tiempo real.
 
-bash
-Copiar código
-kill -9 PID
+- **`kill`**: Termina un proceso mediante su ID (PID).
+```bash
+  kill -9 PID
+```
+```
 -9: Señal de terminación forzada.
+```
 pkill: Termina procesos por nombre.
 
 bash
