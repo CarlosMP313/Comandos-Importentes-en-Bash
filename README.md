@@ -121,17 +121,19 @@
   netstat
 ```
 
-## netstat -tuln
+### netstat -tuln
 
--t: Conexiones TCP.
--u: Conexiones UDP.
--l: Solo conexiones en escucha.
--n: Muestra direcciones numéricas.
-nmap: Escanea redes y puertos.
+- **`-t`**: Conexiones TCP.
+- **`-u`**: Conexiones UDP.
+- **`-l`**: Solo conexiones en escucha.
+- **`-n`**: Solo conexiones en escucha.: Muestra direcciones numéricas.
+  
+- **`nmap`**: Escanea redes y puertos.
+```bash
+  nmap
+```
 
-bash
-Copiar código
-nmap -sS -p- ejemplo.com
+### nmap -sS -p- ejemplo.com
 -sS: Escaneo SYN (rápido).
 -p-: Escanea todos los puertos.
 
