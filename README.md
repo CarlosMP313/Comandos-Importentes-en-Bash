@@ -34,12 +34,16 @@
   mv archivo_origen archivo_destino
 ```
 
-**`rm`**: Elimina archivos o directorios.
+- **`rm`**: Elimina archivos o directorios.
 ```bash
   rm archivo
 ```
 
--r: Elimina recursivamente (para directorios).
+-**`r`**: Elimina recursivamente (para directorios).
+```bash
+  rm -r archivo
+```
+
 -f: Fuerza la eliminación sin preguntar.
 mkdir: Crea un nuevo directorio.
 
