@@ -44,12 +44,15 @@
   rm -r archivo
 ```
 
--f: Fuerza la eliminación sin preguntar.
-mkdir: Crea un nuevo directorio.
+-**`f`**: Fuerza la eliminación sin preguntar.
+```bash
+  rm -f archivo
+```
+-**`mkdir`**: Crea un nuevo directorio.
+```bash
+  mkdir nombre_del_directorio
+```
 
-bash
-Copiar código
-mkdir nombre_del_directorio
 touch: Crea un archivo vacío o actualiza la fecha de modificación de un archivo existente.
 
 bash
