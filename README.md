@@ -19,22 +19,26 @@
   cd /ruta/del/directorio
 ```
 
-cp: Copia archivos o directorios.
+- **`cp`**: Copia archivos o directorios.
+```bash
+  cp archivo_origen archivo_destino
+```
 
-bash
-Copiar código
-cp archivo_origen archivo_destino
--r: Copia recursivamente (para directorios).
-mv: Mueve o renombra archivos o directorios.
+- **`r`**: Copia recursivamente (para directorios).
+```bash
+  cp -r archivo_origen archivo_destino
+```
+  
+- **`mv`**: Mueve o renombra archivos o directorios.
+```bash
+  mv archivo_origen archivo_destino
+```
 
-bash
-Copiar código
-mv archivo_origen archivo_destino
-rm: Elimina archivos o directorios.
+**`rm`**: Elimina archivos o directorios.
+```bash
+  rm archivo
+```
 
-bash
-Copiar código
-rm archivo
 -r: Elimina recursivamente (para directorios).
 -f: Fuerza la eliminación sin preguntar.
 mkdir: Crea un nuevo directorio.
