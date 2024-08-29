@@ -233,19 +233,20 @@
 
 ## 10. Otros Comandos Útiles
 
-history: Muestra el historial de comandos ejecutados.
+- **`history`**: Muestra el historial de comandos ejecutados.
+```bash
+  history
+```
 
-bash
-Copiar código
-history
-crontab: Administra tareas programadas.
+- **`crontab`**: Administra tareas programadas.
+```bash
+  crontab -e
+```
 
-bash
-Copiar código
-crontab -e
-man: Muestra el manual de un comando.
 
-bash
-Copiar código
-man comando
+- **`man`**: Muestra el manual de un comando.
+```bash
+  man <comando>
+```
+
 
