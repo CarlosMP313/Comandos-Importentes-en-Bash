@@ -53,12 +53,12 @@
   mkdir nombre_del_directorio
 ```
 
-touch: Crea un archivo vacío o actualiza la fecha de modificación de un archivo existente.
+- **`touch`**: Crea un archivo vacío o actualiza la fecha de modificación de un archivo existente.
+```bash
+  touch nombre_del_archivo
+```
 
-bash
-Copiar código
-touch nombre_del_archivo
-2. Permisos y Propiedades
+## 2. Permisos y Propiedades
 chmod: Cambia los permisos de archivos o directorios.
 
 bash
