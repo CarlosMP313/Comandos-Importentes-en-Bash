@@ -39,16 +39,16 @@
   rm archivo
 ```
 
--**`r`**: Elimina recursivamente (para directorios).
+- **`r`**: Elimina recursivamente (para directorios).
 ```bash
   rm -r archivo
 ```
 
--**`f`**: Fuerza la eliminación sin preguntar.
+- **`f`**: Fuerza la eliminación sin preguntar.
 ```bash
   rm -f archivo
 ```
--**`mkdir`**: Crea un nuevo directorio.
+- **`mkdir`**: Crea un nuevo directorio.
 ```bash
   mkdir nombre_del_directorio
 ```
