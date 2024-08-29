@@ -154,28 +154,31 @@
 
 ## 6. Búsqueda y Manipulación de Texto
 
-grep: Busca patrones en archivos o entrada.
+- **`grep`**: Busca patrones en archivos o entrada.
+```bash
+  grep "patrón" archivo
+```
 
-bash
-Copiar código
-grep "patrón" archivo
-awk: Procesa y analiza texto basado en patrones.
+- **`awk`**: Procesa y analiza texto basado en patrones.
+```bash
+  awk '{print $1}' archivo
+```
 
-bash
-Copiar código
-awk '{print $1}' archivo
-sed: Edita texto de forma automática en flujo.
+- **`sed`**: Edita texto de forma automática en flujo.
+```bash
+  sed 's/original/nuevo/g' archivo
+```
 
-bash
-Copiar código
-sed 's/original/nuevo/g' archivo
+
 ## 7. Compresión y Archivos
-tar: Archiva y descomprime archivos tar.
 
-bash
-Copiar código
-tar -czvf archivo.tar.gz directorio
--c: Crea un archivo.
+- **`tar`**: Archiva y descomprime archivos tar.
+```bash
+  tar -czvf archivo.tar.gz directorio
+```
+
+### Ayuda Compresión y Archivos
+- **`-c`**: Crea un archivo.
 -z: Comprime con gzip.
 -v: Muestra el progreso.
 -f: Especifica el nombre del archivo.
@@ -202,7 +205,8 @@ nikto: Escáner de vulnerabilidades para servidores web.
 bash
 Copiar código
 nikto -h http://objetivo.com
-9. Alias y Scripts
+
+## 9. Alias y Scripts
 alias: Define comandos personalizados.
 
 bash
@@ -213,7 +217,9 @@ bash script.sh: Ejecuta un script Bash.
 bash
 Copiar código
 ./script.sh
-10. Otros Comandos Útiles
+
+## 10. Otros Comandos Útiles
+
 history: Muestra el historial de comandos ejecutados.
 
 bash
