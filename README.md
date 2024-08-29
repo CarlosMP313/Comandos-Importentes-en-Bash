@@ -98,22 +98,24 @@
 ```
 -9: Señal de terminación forzada.
 ```
-pkill: Termina procesos por nombre.
+- **`pkill`**: Termina procesos por nombre.
+```bash
+  pkill nombre_proceso
+```
 
-bash
-Copiar código
-pkill nombre_proceso
-4. Red y Conectividad
-ifconfig: Muestra o configura las interfaces de red.
 
-bash
-Copiar código
-ifconfig
-ping: Verifica la conectividad con un host.
+## 4. Red y Conectividad
 
-bash
-Copiar código
-ping ejemplo.com
+- **`ifconifg`**: Muestra o configura las interfaces de red.
+```bash
+  ifconfig
+```
+
+- **`ping`**: Verifica la conectividad con un host.
+```bash
+  ping ejemplo.com
+```
+
 netstat: Muestra las conexiones de red y estadísticas de red.
 
 bash
