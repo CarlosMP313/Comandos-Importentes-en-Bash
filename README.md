@@ -59,18 +59,25 @@
 ```
 
 ## 2. Permisos y Propiedades
-chmod: Cambia los permisos de archivos o directorios.
+- **`chmod`**: Cambia los permisos de archivos o directorios.
+```bash
+  chmod 755 archivo
+```
+```
+-  755: Permisos de lectura y ejecución para todos, escritura solo para el propietario.
+```
 
-bash
-Copiar código
-chmod 755 archivo
-755: Permisos de lectura y ejecución para todos, escritura solo para el propietario.
-chown: Cambia el propietario de un archivo o directorio.
+- **`chown`**: Cambia el propietario de un archivo o directorio.
+```bash
+  chown usuario:grupo archivo
+```
+- **`chmod +x`**: Cambia los permisos de archivos para ejecución.
+```bash
+  chmod +x archivo
+```
 
-bash
-Copiar código
-chown usuario:grupo archivo
-3. Gestión de Procesos
+
+## 3. Gestión de Procesos
 ps: Muestra los procesos en ejecución.
 
 bash
