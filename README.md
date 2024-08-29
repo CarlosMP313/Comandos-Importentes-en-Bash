@@ -116,11 +116,13 @@
   ping ejemplo.com
 ```
 
-netstat: Muestra las conexiones de red y estadísticas de red.
+- **`netstat`**: Muestra las conexiones de red y estadísticas de red.
+```bash
+  netstat
+```
 
-bash
-Copiar código
-netstat -tuln
+## netstat -tuln
+
 -t: Conexiones TCP.
 -u: Conexiones UDP.
 -l: Solo conexiones en escucha.
@@ -132,7 +134,8 @@ Copiar código
 nmap -sS -p- ejemplo.com
 -sS: Escaneo SYN (rápido).
 -p-: Escanea todos los puertos.
-5. Administración de Paquetes
+
+## 5. Administración de Paquetes
 apt: Gestiona paquetes en sistemas basados en Debian.
 
 bash
@@ -145,7 +148,8 @@ dpkg: Gestiona paquetes Debian.
 bash
 Copiar código
 dpkg -i paquete.deb
-6. Búsqueda y Manipulación de Texto
+## 6. Búsqueda y Manipulación de Texto
+
 grep: Busca patrones en archivos o entrada.
 
 bash
@@ -161,7 +165,7 @@ sed: Edita texto de forma automática en flujo.
 bash
 Copiar código
 sed 's/original/nuevo/g' archivo
-7. Compresión y Archivos
+## 7. Compresión y Archivos
 tar: Archiva y descomprime archivos tar.
 
 bash
@@ -176,7 +180,9 @@ unzip: Descomprime archivos zip.
 bash
 Copiar código
 unzip archivo.zip
-8. Comandos Especiales de Kali Linux
+
+## 8. Comandos Especiales de Kali Linux
+
 msfconsole: Inicia Metasploit Framework.
 
 bash
