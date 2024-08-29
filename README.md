@@ -3,17 +3,22 @@
 ## 1. Navegación y Gestión de Archivos
 
 - **`ls`**: Lista los archivos y directorios en el directorio actual.
-  ```bash
+```bash
   ls -la
--l: Muestra la lista en formato largo.
+```
+- **`l`**: Muestra la lista en formato largo.
+```bash
+  ls -l
+```
+- **`a`**: Incluye archivos ocultos.
+```bash
+  ls -a
+```
+- **`cd`**: Cambia el directorio actual.
+```bash
+  cd /ruta/del/directorio
+```
 
--a: Incluye archivos ocultos.
-
-cd: Cambia el directorio actual.
-
-bash
-Copiar código
-cd /ruta/del/directorio
 cp: Copia archivos o directorios.
 
 bash
