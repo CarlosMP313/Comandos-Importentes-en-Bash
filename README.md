@@ -134,22 +134,24 @@
 ```
 
 ### nmap -sS -p- ejemplo.com
--sS: Escaneo SYN (rápido).
--p-: Escanea todos los puertos.
+- **`-sS`**: Escaneo SYN (rápido).
+- **`-p`**: Escanea todos los puertos.
 
 ## 5. Administración de Paquetes
-apt: Gestiona paquetes en sistemas basados en Debian.
 
-bash
-Copiar código
-sudo apt update && sudo apt upgrade
-update: Actualiza la lista de paquetes.
-upgrade: Actualiza los paquetes instalados.
-dpkg: Gestiona paquetes Debian.
+- **`apt`**: Gestiona paquetes en sistemas basados en Debian.
+```bash
+  sudo apt update && sudo apt upgrade
+```
 
-bash
-Copiar código
-dpkg -i paquete.deb
+- **`update`**: Actualiza la lista de paquetes.
+- **`upgrade`**: Actualiza los paquetes instalados.
+- **`dpkg`**: Gestiona paquetes Debian.
+
+```bash
+  dpkg -i paquete.deb
+```
+
 ## 6. Búsqueda y Manipulación de Texto
 
 grep: Busca patrones en archivos o entrada.
