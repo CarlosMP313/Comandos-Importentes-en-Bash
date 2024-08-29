@@ -178,45 +178,58 @@
 ```
 
 ### Ayuda Compresión y Archivos
-- **`-c`**: Crea un archivo.
--z: Comprime con gzip.
--v: Muestra el progreso.
--f: Especifica el nombre del archivo.
-unzip: Descomprime archivos zip.
 
-bash
-Copiar código
-unzip archivo.zip
+- **`-c`**: Crea un archivo.
+- **`-z`**:: Comprime con gzip.
+- **`-v`**:: Muestra el progreso.
+- **`-f`**:: Especifica el nombre del archivo.
+  
+- **`unzip`**:: Descomprime archivos zip.
+```bash
+  unzip archivo.zip
+```
+
 
 ## 8. Comandos Especiales de Kali Linux
 
-msfconsole: Inicia Metasploit Framework.
+- **`msfconsole`**: Inicia Metasploit Framework.
+```bash
+  msfconsole
+```
+- **`hydra`**: Herramienta de fuerza bruta para ataques a contraseñas.
+```bash
+  hydra -l usuario -P lista_passwords ssh://objetivo
+```
+### Explicación de los parámetros:
 
-bash
-Copiar código
-msfconsole
-hydra: Herramienta de fuerza bruta para ataques a contraseñas.
+- **-l usuario**: Especifica el nombre de usuario a utilizar en el ataque. Solo intentará contraseñas para este usuario en particular.
 
-bash
-Copiar código
-hydra -l usuario -P lista_passwords ssh://objetivo
-nikto: Escáner de vulnerabilidades para servidores web.
+- **-P lista_passwords**: Especifica la ruta a un archivo que contiene una lista de posibles contraseñas (un diccionario). Hydra intentará cada contraseña de esta lista contra el usuario especificado.
 
-bash
-Copiar código
-nikto -h http://objetivo.com
+- **ssh://objetivo**: Define el protocolo (ssh) y el objetivo (la dirección IP o el dominio del servidor al cual se va a atacar). Hydra intentará conectarse al servicio SSH del objetivo usando el nombre de usuario y las contraseñas de la lista proporcionada.
+
+### Ejemplo de uso   
+```bash
+ hydra -l usuario -P lista_passwords.txt ssh://192.168.1.10
+```
+
+- **`nikto`**: Escáner de vulnerabilidades para servidores web.
+```bash
+  nikto -h http://objetivo.com
+```
 
 ## 9. Alias y Scripts
-alias: Define comandos personalizados.
+- **`alias`**: Define comandos personalizados.
+```bash
+  alias actualizar='sudo apt update && sudo apt upgrade'
+```
 
-bash
-Copiar código
-alias actualizar='sudo apt update && sudo apt upgrade'
-bash script.sh: Ejecuta un script Bash.
 
-bash
-Copiar código
-./script.sh
+- **`bash script.sh`**: Ejecuta un script Bash.
+```bash
+  ./script.sh'
+```
+
 
 ## 10. Otros Comandos Útiles
 
